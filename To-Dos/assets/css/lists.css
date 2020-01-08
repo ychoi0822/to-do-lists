@@ -1,0 +1,67 @@
+input {
+    width: 60%;
+    height: 40px;
+    padding: 1%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.addButton {
+    height: 40px;
+    width: 40px;
+    background-color: #F08080;
+    border: none;
+    border-radius: 5px;
+}
+
+.do-lists {
+    margin: 3%;
+    text-align: left;
+    color: #696969;
+    width: 50%;
+    display: inline-table;
+}
+
+li {
+    list-style: none;
+    margin: 1%;
+    padding: 1.5%;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 80%;
+    height: 20px;
+}
+
+.delete {
+    display: none;
+}
+
+li > button {
+    background: none;
+    border: none;
+    float: right;
+    font-weight: 800;
+}
+
+.completed {
+    background-color: #F08080;
+    border: none;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    input, li {
+        font-size: 10px;
+        height: 30px;
+    }
+
+    li {
+        height: 20px;
+    }
+
+    .addButton {
+        height: 30px;
+        width: 30px;
+    }
+}
